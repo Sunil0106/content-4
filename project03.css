@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: cursive;
+  background:gray;
+  background-size: cover;
+  
+}
+
+.main {
+    cursor:default;
+  height: 50vh;
+  width: 50vh;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 3px 3px 3px 10px rgba(255, 255, 255, 0.1);
+  border: none;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+.am h1 {
+  margin: 20px;
+  font-weight: 500px;
+  font-size: 16px;
+}
+
+.desc h2 {
+  text-align: center;
+  margin: 0 0 25px 0;
+  font-size: 2rem;
+}
+
+.price p {
+  margin-left: 2.5rem;
+  color: rgb(9, 97, 28);
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.delivery p {
+    
+  text-align: center;
+  font-size: 1rem;
+  color: #eb632d;
+  margin-bottom: 25px;
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+   
+}
+.button a{
+    text-decoration:none;
+    margin:10px;
+color:black;
+font-weight: 700;
+}
+.btn1{
+    background-color:#c9860b;
+    padding:8px 20px;
+    border-radius:20px;
+    transition:background 0.15s ease-in,
+    color 0.15s ease-out;
+}
+.btn2{
+    background-color: #c54714;
+    padding:8px 20px;
+    border-radius:20px;
+    transition:background 0.15s ease-in,
+    color 0.15s ease-out;
+}
+.btn1:hover:hover{
+    background-color: #c54714;
+    color:#c9860b;
+}
+.btn2:hover{
+color:#c54714;
+background-color:#c9860b;
+}
+
